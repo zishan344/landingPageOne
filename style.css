@@ -1,0 +1,93 @@
+/* font  */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:ital,wght@0,700;1,400&display=swap");
+/* 
+font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif;
+*/
+
+/* global style */
+:root {
+  --DarkBlue: hsl(243, 87%, 12%);
+  --DesaturatedBlue: hsl(238, 22%, 44%);
+  --BrightBlue: hsl(224, 93%, 58%);
+  --ModerateCyan: hsl(170, 45%, 43%);
+  --Light: hsl(240, 75%, 98%);
+  --LightGray: hsl(0, 0%, 75%);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+.body {
+  font-family: "Open Sans", sans-serif;
+}
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+img {
+  width: 100%;
+}
+.btn {
+  padding: 10px 30px;
+  background-color: var(--BrightBlue);
+  color: var(--Light);
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+form {
+  margin-top: 20px;
+}
+.commonInput {
+  padding: 8px;
+  width: 45%;
+  margin-right: 10px;
+  border-radius: 2px;
+  border: 1px solid var(--LightGray);
+}
+.section-heading {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 2.8rem;
+}
+.para {
+  margin-top: 15px;
+}
+/* desktop style */
+
+/* nav style start */
+.fullNav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 5px;
+}
+/* right side */
+.nav-logo img {
+  width: 100%;
+}
+
+/* left sid */
+.navItem {
+  display: flex;
+  gap: 20px;
+}
+.navItem li a {
+  color: hsl(243, 87%, 12%);
+}
+/* nav style end */
+
+/* section style start*/
+.section {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  align-items: center;
+}
+
+/* section style end */
+
+/* mobile style */
